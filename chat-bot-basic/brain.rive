@@ -1,0 +1,116 @@
+// Chatbot's brain
+
+! var num = 3775
+
++ *
+- Sorry 😒, I didn't understand.
+
++ #
+- It's a number 🔢
+
++ hi
+- hello
+
++ temperature *
+- temperature
+
++ hot
+- Do you want me to turn AC on? 
+- I think you should turn on the AC!
+
++ it is * really hot  
+- temperature 
+
++ temperature * today 
+- temperature
+
++ * hot * today 
+- temperature
+
++ t is * really cold 
+- temperature
+
++ i am feeling hot here 
+@ hot
+
++ [*] what is the temperature [*] 
+- temperature
+
++ temperature please 
+- temperature
+
++ [*] can you tell [*] the temperature [*]
+- temperature
+
++ [*] please [*] the temperature [*]
+- temperature
+
++ [*] tell [*] the temperature [*]
+- temperature
+
++ [*] could you [*] tell me the temperature [*] 
+- temperature
+
++ [*] see what is the temperature [*] 
+- temperature
+
++ [*]do you [*] the temperature [*]
+- temperature
+
++ notemp
+- Fine, as you wish.
+- Okay
+- Understood
+
++ [*] dont [*] temperature [*]
+@ notemp
+
++ [*] i dont want to know the temperature [*] 
+@ notemp
+
++ [*] weather [*]
+- temperature
+
++ * turn on the light [*]
+- okay
+
++ [*] it is very hot here [*]
+@ hot
+
++ [*] do you think you can turn on the led [*]
+- yes i can, on
+
++ [*] do you think you can turn off the led [*]
+- yes i can, off
+
++ [*] turn on [*] led [*]
+- on
+
++ [*] turn off [*] led [*]
+- off
+
++ [*] it is [*] dark  [*]  
+- on
+
++ * dark in [*]
+- on
+
++ [*] switch on [*]
+- on
+
++ [*] switch off [*]
+- off
+
++ [*] cannot see [*]
+- on
+
++ [*] darkness [*]
+- on
+
++ [*] (dont|do not) [*] turn off [*] light [*]
+- Fine, as you wish.
+- Okay
+- Understood
+
+
+
